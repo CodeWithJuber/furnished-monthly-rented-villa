@@ -59,6 +59,17 @@
   }
 }
 
+@media (max-width: 500px) {
+  .sm\:grid-cols-1 {
+    grid-template-columns: 1fr;
+  }
+  .sm\:justify-items-center {
+    justify-items: center;
+  }
+  .sm\:text-center {
+    text-align: center;
+  }
+}
 
     </style>
     <script type="application/ld+json">
@@ -194,7 +205,7 @@
         <div class="p-4 bg-white shadow-md rounded-md mb-8">
             <h2 class="text-lg font-semibold">Amenities</h2>
      <div class="grid grid-cols-3 gap-4 mt-2 md:grid-cols-3 sm:grid-cols-1">
-<div class="grid grid-cols-3 gap-4 mt-2 sm:grid-cols-1 sm:justify-items-center">
+<div class="grid grid-cols-3 gap-4 mt-2 sm:grid-cols-1 sm:justify-items-center sm:text-center">
     <div class="flex flex-col items-center">
         <img src="https://static.dubizzle.com/frontend-web/static-resources/assets/images/dryer_.svg" alt="dryer_" class="w-10 h-10" />
         <span class="mt-2 text-gray-700">Dryer</span>
@@ -208,6 +219,7 @@
         <span class="mt-2 text-gray-700">Kitchen Appliances</span>
     </div>
 </div>
+
 
 
 
